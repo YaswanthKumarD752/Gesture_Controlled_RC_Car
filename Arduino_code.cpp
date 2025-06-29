@@ -6,10 +6,10 @@ const char* password = "PASSWORD";
 WiFiServer server(80);
 
 // Motor pins
-int in1 = 12;
-int in2 = 14;
-int in3 = 27;
-int in4 = 26;
+int in1 = 16;
+int in2 = 17;
+int in3 = 18;
+int in4 = 19;
 
 void setup() {
   Serial.begin(115200);
