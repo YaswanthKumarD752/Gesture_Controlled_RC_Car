@@ -2,9 +2,9 @@ import cv2
 import mediapipe as mp
 import requests
 
-ESP32_IP = "http://192.168.1.10"  # <-- Replace with your ESP32 IP
+ESP32_IP = "http://192.168.1.xx"  # <-- Replace with your ESP32 IP
 
-cap = cv2.VideoCapture("http://192.168.1.12:8080/video")
+cap = cv2.VideoCapture("http://192.168.1.xx:8080/video")
 
 
 mp_hands = mp.solutions.hands
