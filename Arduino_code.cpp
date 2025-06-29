@@ -1,7 +1,7 @@
 #include <WiFi.h>
 
-const char* ssid = "Airtel_9841093341";
-const char* password = "air93904";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 WiFiServer server(80);
 
